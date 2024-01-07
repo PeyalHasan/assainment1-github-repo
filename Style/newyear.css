@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+</style>
 *{
     margin: 0;
     padding: 0;
 }
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 /* All Font */
 body{
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
 /* Header Section Style */
 .header-main{
-    background-image: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    background-repeat: no-repeat;background-position: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    height:
+      
 }
 .container{
     text-align: center;
@@ -24,7 +29,7 @@ body{
     font-size: 32px;
     font-weight: 400;
     margin-top: 0PX;
-    margin-bottom: 16px;
+    margin-bottom:16px;
 }
 .banner h1{
     color: #FFF;
@@ -34,3 +39,69 @@ body{
     line-height: 95px;
     margin-top: 0px;
 }
+/* New year offer */
+.new-year-offer{
+    text-align: center;
+}
+.new-year-offer .offer h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.new-year-offer .offer h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.new-year-offer .offer h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+/* Greeting Section */
+.welcome-section{
+    width:83%
+     margin: 0 auto;
+    
+}
+.greeting{
+    background-image:url(../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+    background-repeat: no-repeat;   background-position: center;
+     display: 83;
+     width: 83%;
+     margin: 0 auto;
+     display: flex;
+     jus
+}
+.welcome h2{
+   
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+}  
+.welcome p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: ; /* 166.667% */
+    margin-left:266px ;
+}
+.year-image{
+text-align: center;
+}
+
