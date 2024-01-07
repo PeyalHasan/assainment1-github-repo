@@ -9,13 +9,28 @@ body{
 }
 /* Header Section Style */
 .header-main{
-   background-image: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    background-image: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    height: 80vh;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
 }
 .container{
-    
+    text-align: center;
+    padding: 177px 344px;
 }
-.banner{
-    border:50px 0 ;
+.banner h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0PX;
+    margin-bottom: 16px;
+}
+.banner h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 0px;
 }
