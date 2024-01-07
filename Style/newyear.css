@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+/* All Font */
+body{
+    font-family: 'Merriweather', serif;
+}
+/* Header Section Style */
+.header-main{
+   background-image: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    
+}
+.banner{
+    border:50px 0 ;
+}
