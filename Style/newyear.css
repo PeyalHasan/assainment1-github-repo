@@ -12,12 +12,12 @@ body{
 }
 /* Header Section Style */
 .header-main{
-    background: url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    background-image:
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
     background-repeat: no-repeat;background-position: center;
     margin: 0 auto;
     border-radius: 16px;
-    height:
-      
+    max-width: 1320px;
 }
 .container{
     text-align: center;
@@ -38,6 +38,8 @@ body{
     font-weight: 900;
     line-height: 95px;
     margin-top: 0px;
+    width: 632px;
+    padding-left:344px ;
 }
 /* New year offer */
 .new-year-offer{
@@ -78,7 +80,8 @@ body{
 }
 .greeting{
     margin-top: 120px;
-    background-image:url(../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+    background-image:
+    linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
     background-repeat: no-repeat;   
      display: 83;
      width: 83%;
@@ -268,26 +271,35 @@ button:hover{
     background: #F00;
 }
 #one{
-    position: absolute;
+    position: relative;
     right:15.2%;
+    right: -890px;
+    bottom: -10px;
 }
 .pic-contaier{
     max-width: 1320px;
 }
+.de{
+    position:relative
+}
 #two{
+    position: 
     margin-right: 100px;
-    margin-top:123px ;
+
+    bottom: -700px
 }
 #disc{
-    position;
-    margin-left: 50%;
+    position:relative;
+    left: 0px;
+    top: 200px;
     z-index : 100%;
 }
 #box{
-    position: absolute;
+    position: relative;
     fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
     background-blend-mode: screen;
     mix-blend-mode: screen;
+    bottom:-600px;
 }
 .products{
     margin: 0 auto;
@@ -384,9 +396,103 @@ input::placeholder{
 }
 .sub-text button{
     width: 210px;
-    height: 72px;
+    height: 67px;
     flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: none;
+}
+.sub-text button span{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.sub-text button:hover{
+    background-color: rgb(214, 58, 58);
+}
+.foot{
+    background-color:#070211 ;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    margin-left: 140px;
+}
+.foot hr{
+    background: rgba(255, 255, 255, 0.15);
+    width: 1320px;
+    height: 1px;
+    border: none;
+    margin-left: 120px;
+}
+.ftext{
+    display: flex;
+}
+.ftext h3{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+    padding-left: 140px;
+}
+.ftext img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding-top: 120px;
+    padding-right: 0px;
+}
+.logo{
+    margin-left:600px ;
+    padding-bottom: 50px
+}
+.logo span{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 120px;
+    padding:10px;
+}
+.icons{
+    margin-left: 600px;
+    padding: 10px 0px;
+}
+.icons #F{
+    padding-left: 20px;
+}
+.icons #I{
+    padding-left: 20px;
+}
+.icons #X{
+    padding-left: 20px;
+}
+.icons #L {
+    padding-left: 20px;
+}
+.end{
+    width: 1320px;
+}
+#end-contain{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+padding-top: 80px;
+display: flex;
+justify-content: sp;
+}
+#endright{
+  padding-left:850px;
+}
+#endleft{
+    padding-left: 140px;
 }
