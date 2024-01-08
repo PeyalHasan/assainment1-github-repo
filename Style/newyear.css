@@ -261,11 +261,11 @@ button:hover{
     margin-bottom: 64px;
 }
 #two{
-    width: 1320px;
-height: 229px;
-flex-shrink: 0;
-border-radius: 16px 0px 16px 16px;
-background: #F00;
+        width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
 }
 #one{
     position: absolute;
@@ -286,23 +286,24 @@ background: #F00;
 #box{
     position: absolute;
     fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
-background-blend-mode: screen;
-mix-blend-mode: screen;
+    background-blend-mode: screen;
+    mix-blend-mode: screen;
 }
 .products{
     margin: 0 auto;
     max-width: 1320px;
 }
 .product-photo{
-  flex-shrink: 0;
+    flex-shrink: 0;
     border-radius: 16px;
     gap: 24px;
     padding-top: 48px;
 }
 .products-photo img{
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     justify-content: space-between;
+    transition: 0.s;
 }
 .title h3{
     color: #F00;
@@ -329,4 +330,63 @@ mix-blend-mode: screen;
     font-weight: 400;
     line-height: 32px;
     padding-top: 22px;
+}
+.subscribe{
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+}
+.mail-image{
+    text-align: center;
+    padding-top: 80px;
+    margin-top: 120px;
+}
+.sub-text{
+    text-align: center;
+}
+.sub-text h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+.sub-text p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 896px;
+    padding-left: 112px ;
+    padding-bottom: 48px;
+    padding-bottom: 22px;
+}
+.sub-text input{
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    width: 648px;
+    height: 70px;
+    flex-shrink: 0;
+    border: none;
+    margin-bottom: 80px;
+}
+input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sub-text button{
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
 }
