@@ -73,19 +73,19 @@ body{
 }
 /* Greeting Section */
 .welcome-section{
-    width:83%
-     margin: 0 auto;
-     
+    margin-left: 140px;
+    margin-right: 10px; 
 }
 .greeting{
     margin-top: 120px;
     background-image:url(../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
-    background-repeat: no-repeat;   background-position: center;
+    background-repeat: no-repeat;   
      display: 83;
      width: 83%;
-     margin: 0 auto;
+     margin: auto 140px ;
      display: flex;
      justify-content: space-around;
+     height: 80vh;
 }
 .welcome h2{
    
@@ -96,6 +96,9 @@ body{
     font-weight: 900;
     line-height: 88px;
     margin-bottom: 24px;
+    text-align: center;
+    
+    padding-top: 126px;
 }  
 .welcome p{
     color: rgba(255, 255, 255, 0.80);
@@ -257,9 +260,6 @@ button:hover{
     line-height: 32px;
     margin-bottom: 64px;
 }
-.image{
-    background-image: url(../B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png);
-}
 #two{
     width: 1320px;
 height: 229px;
@@ -275,6 +275,58 @@ background: #F00;
     max-width: 1320px;
 }
 #two{
-  margin: 100px;
-  max-width: 1320px;
+    margin-right: 100px;
+    margin-top:123px ;
+}
+#disc{
+    position;
+    margin-left: 50%;
+    z-index : 100%;
+}
+#box{
+    position: absolute;
+    fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
+background-blend-mode: screen;
+mix-blend-mode: screen;
+}
+.products{
+    margin: 0 auto;
+    max-width: 1320px;
+}
+.product-photo{
+  flex-shrink: 0;
+    border-radius: 16px;
+    gap: 24px;
+    padding-top: 48px;
+}
+.products-photo img{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.title h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 174px;
+}
+.title h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+.title p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 22px;
 }
