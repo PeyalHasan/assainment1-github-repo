@@ -18,6 +18,7 @@ body{
     margin: 0 auto;
     border-radius: 16px;
     max-width: 1320px;
+    margin-top: 50px;
 }
 .container{
     text-align: center;
@@ -77,18 +78,19 @@ body{
 .welcome-section{
     margin-left: 140px;
     margin-right: 10px; 
+    height:600px;
 }
 .greeting{
     margin-top: 120px;
     background-image:
     linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url(../B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
     background-repeat: no-repeat;   
-     display: 83;
-     width: 83%;
-     margin: auto 140px ;
+    background-size: cover;
+     max-width: 1320px;
+     margin:140px ;
      display: flex;
      justify-content: space-around;
-     height: 80vh;
+     
 }
 .welcome h2{
    
@@ -280,26 +282,26 @@ button:hover{
     max-width: 1320px;
 }
 .de{
-    position:relative
+    position:relative;
 }
 #two{
-    position: 
+    position:relative
     margin-right: 100px;
 
     bottom: -700px
 }
 #disc{
     position:relative;
-    left: 0px;
-    top: 200px;
-    z-index : 100%;
+    left: -50px;
+    top: 350px;
+    z-index : 1;
 }
 #box{
     position: relative;
     fill: linear-gradient(90deg, #FFF 0.26%, #1D1D1B 100.35%);
     background-blend-mode: screen;
-    mix-blend-mode: screen;
-    bottom:-600px;
+    bottom:-630px;
+    z-index: 2;
 }
 .products{
     margin: 0 auto;
@@ -480,15 +482,11 @@ input::placeholder{
 }
 #end-contain{
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-padding-top: 80px;
-display: flex;
-justify-content: sp;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 80px;
+    display: flex;
 }
 #endright{
   padding-left:850px;
